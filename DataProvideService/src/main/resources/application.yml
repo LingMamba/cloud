@@ -16,6 +16,7 @@ spring:
 #    username: dev
 #    password: 123456
 #    driver-class-name: oracle.jdbc.driver.OracleDriver
+
 mybatis:
   mapper-locations: classpath:mybatis/*Mapper.xml
   config-locations: classpath:mybatis/mybatis-config.xml
