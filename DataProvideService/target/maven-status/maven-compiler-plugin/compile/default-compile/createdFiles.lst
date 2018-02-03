@@ -1,0 +1,6 @@
+com\mcc\mybatis\dao\Mapper.class
+com\mcc\controller\TestControler.class
+com\mcc\app\Normalization.class
+com\mcc\app\DataExtractApp.class
+com\mcc\mybatis\dao\ZzY2Mapper.class
+com\mcc\mybatis\dao\NyhMapper.class

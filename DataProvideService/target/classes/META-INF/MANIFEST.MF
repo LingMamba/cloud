@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: DataProvideService
+Implementation-Version: 0.0.1
+Built-By: Administrator
+Implementation-Vendor-Id: com.mcc.dataprovide
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/could/DataPr
+ ovideService/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
