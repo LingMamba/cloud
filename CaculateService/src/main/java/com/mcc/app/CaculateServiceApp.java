@@ -2,9 +2,11 @@ package com.mcc.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
+@EnableDiscoveryClient
 @ComponentScan(basePackages = { "com.mcc" })
 //@MapperScan(basePackages="com.sinohealth.dsc.mapper")
 public class CaculateServiceApp {

@@ -25,8 +25,8 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-7001.com:7001/eureka
+      defaultZone: http://eureka-7001.com:7001/eureka,http://eureka-7002.com:7002/eureka,http://eureka-7003.com:7003/eureka
   instance:
-    appname: dataProvide
+    appname: data_provide
     instance-id: haha
     prefer-ip-address: false #表示显示的是ip地址

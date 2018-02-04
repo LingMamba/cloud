@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 80
 
 
 spring:
@@ -17,16 +17,16 @@ spring:
 #    password: 123456
 #    driver-class-name: oracle.jdbc.driver.OracleDriver
 
-mybatis:
-  mapper-locations: classpath:mybatis/*Mapper.xml
-  config-locations: classpath:mybatis/mybatis-config.xml
-  type-aliases-package: com.mcc.mybatis.domain
-
+#mybatis:
+#  mapper-locations: classpath:mybatis/*Mapper.xml
+#  config-locations: classpath:mybatis/mybatis-config.xml
+#  type-aliases-package: com.mcc.mybatis.domain
 eureka:
   client:
     service-url:
       defaultZone: http://eureka-7001.com:7001/eureka,http://eureka-7002.com:7002/eureka,http://eureka-7003.com:7003/eureka
+    register-with-eureka: true #这个是计算框架，我也注册一下
   instance:
-    appname: data_provide
-    instance-id: haha
-    prefer-ip-address: false #表示显示的是ip地址
+    appname: client
+    instance-id: enen
+    prefer-ip-address: true #表示显示的是ip地址

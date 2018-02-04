@@ -3,6 +3,7 @@ import javax.annotation.Resource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.mcc.remote.mathAction.LinearRemoteAction;
 import com.mcc.vo.DataFrame;
 @EnableAutoConfiguration
+@EnableDiscoveryClient
 @ComponentScan(basePackages = { "com.mcc" })
 //@MapperScan(basePackages="com.sinohealth.dsc.mapper")
 public class TestClient {
