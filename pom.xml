@@ -128,6 +128,7 @@
     	<module>DataProvideService</module>
     	<module>CaculateService</module>
     	<module>EurekaServer</module>
+    	<module>Consumer</module>
     </modules>
 
 
